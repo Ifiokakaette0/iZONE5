@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+header{
+    background-color: rgb(236, 45, 45);
+}
+.searchbarr{
+    border: 3px;
+    border-style: solid;
+}
+.container{ 
+   display: inline-flex;
+   padding-left: 20%;
+   padding-top: 10px;
+   margin-top: 10px;
+}
+li{
+    display: inline-flex;
+    float: inline-start;
+    padding: 5px;
+    margin: 5px;
+}
+nav{
+    flex-direction: row;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.mainsection{
+    width: 18%;
+    border: 1px silver;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: white;
+    position: fixed;
+}
+.johndoe{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: rgb(73, 72, 72);
+}
+.profile{
+    color: rgb(236, 45, 45);
+}
+.number{
+    color: black;
+}
+.redbox{
+    background-color: rgb(236, 45, 45);
+    width: 100%;
+    height: 100px;
+}
+.middlesection{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 380px;
+    width: 40%;
+    position: absolute;
+    
+
+}
+.smallredbox{
+    background-color: rgb(236, 45, 45);
+    width: 100%;
+    height: 3px;
+}
+.whitebox{
+    float: right;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: 1px silver;
+    border-style: solid;
+}
+.seconddivdown{
+    float: right;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px silver;
+    border-style: solid;
+    
+}
+#project:hover{
+    color: rgb(236, 45, 45);
+}
